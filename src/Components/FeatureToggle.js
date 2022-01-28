@@ -22,7 +22,7 @@ const FeatureFlag = ({ children, flagName }) => {
     );
 }
 
-const On = ({ value, children }) => {
+const On = ({ children }) => {
     const { flag } = useFeatureFlagsContext();
     return (
         <>
@@ -31,7 +31,7 @@ const On = ({ value, children }) => {
     );
 }
 
-const Off = ({ value, children }) => {
+const Off = ({ children }) => {
     const { flag } = useFeatureFlagsContext();
     return (
         <>
