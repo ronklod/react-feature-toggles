@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.user-container{
+  background-color: lightblue;
+  color: crimson;
+  font-size: large;
+}
+.new-user-container{
+  background-color: lightgreen;
+  color: black;
+  font-size: large;
+}
+.traffic-control{
+  background-color: pink;
+  color: #282c34;
+  font-size: large;
+}
+
+.feature-flag-option1{
+  background-color: lightskyblue;
+  width: 300px;
+  height: 160px;
+  /*position: relative;*/
+  box-shadow: 5px 5px 5px lightgray;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style:solid;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.feature-flag-option2{
+  background-color: lightgray;
+  width: 300px;
+  height: 160px;
+  /*position: relative;*/
+  box-shadow: 5px 5px 5px lightgray;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style:solid;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.section-title{
+  /*background-color: lightgray;*/
+  height: 40px;
+  width: 100%;
+  margin-top: 40px;
+}
