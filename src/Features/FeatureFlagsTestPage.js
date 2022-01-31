@@ -8,7 +8,7 @@ import {FeatureFlag, On, Off} from "../Components/FeatureToggle";
 
 const  FeatureFlagsTestPage = () => {
 
-    const isNewUser = useFlag('react_flag');
+    const isNewUser = useFlag('new_user_flow');
     const trafficControl = useFlag("experiment_flag");
 
     const userToggle = () => {
@@ -34,7 +34,7 @@ const  FeatureFlagsTestPage = () => {
             Feature flag Option 2 - using "Compound components"
             </div>
             <div className="feature-flag-option2">
-                <FeatureFlag flagName="react_flag">
+                <FeatureFlag flagName="new_user_flow">
                     <On>
                         <NewUser />
                     </On>
